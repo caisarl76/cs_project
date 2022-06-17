@@ -29,10 +29,10 @@ Clone the repo:
     c. (Optional) follow the instructions for the [Albedo model](https://github.com/TimoBolkart/BFM_to_FLAME) to get 'FLAME_albedo_from_BFM.npz', put it into ./data
 
 
-2. Run demos  
+2. Make face model
     a. **reconstruction**  
     ```bash
-    python demos/demo_reconstruct.py -i TestSamples/examples --saveDepth True --saveObj True
+    python demos/demo_reconstruct.py -i images/vgg_face2_samples/ -s images/results/
     ```   
     to visualize the predicted 2D landmanks, 3D landmarks (red means non-visible points), coarse geometry, detailed geometry, and depth.   
     <p align="center">   
