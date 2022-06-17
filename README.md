@@ -58,7 +58,7 @@ Clone the repo:
     
     Note that, you need to set '--useTex True' to get full texture.   
 
-    c. for the [teaser gif](https://github.com/YadiraF/DECA/results/teaser.gif) (**reposing** and **animation**)
+    c. for the [teaser gif]((https://github.com/caisarl76/cs_project/Doc/images/teaser.gif)) (**reposing** and **animation**)
     ```bash
     python demos/demo_teaser.py 
     ``` 
