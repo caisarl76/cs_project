@@ -64,6 +64,6 @@ Clone the repo:
     ``` 
     
     <p align="center"> 
-    <img src="Doc/images/korean_3.gif">
+    <img src="Doc/images/korean_3.gif" width="400" height="400"/>
     </p>  
     
