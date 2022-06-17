@@ -3,6 +3,8 @@
 
 This is project archive of Lecture 'Creative and Self-motivating Project'
 
+**Code base is originated from [DECA](https://github.com/YadiraF/DECA)
+
 preperation 
 ## Getting Started
 Clone the repo:
