@@ -63,4 +63,7 @@ Clone the repo:
     python demos/demo_teaser.py 
     ``` 
     
-    More demos and training code coming soon.
+    <p align="center"> 
+    <img src="Doc/images/korean_3.gif">
+    </p>  
+    
