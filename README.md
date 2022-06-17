@@ -39,7 +39,7 @@ Clone the repo:
     <img src="Doc/images/input1_visualize.jpg">
     </p>  
     <p align="center">   
-    <img src="Doc/images/input2_visualize.jpg">
+    <img src="Doc/images/input2.visualize.jpg">
     </p>  
     You can also generate an obj file (which can be opened with Meshlab) that includes extracted texture from the input image.  
 
