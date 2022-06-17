@@ -36,10 +36,10 @@ Clone the repo:
     ```   
     to visualize the predicted 2D landmanks, 3D landmarks (red means non-visible points), coarse geometry, detailed geometry, and depth.   
     <p align="center">   
-    <img src="Doc/images/id04657-PPHljWCZ53c-000565_inputs_inputs_vis.jpg">
+    <img src="Doc/images/input1_visualize.jpg">
     </p>  
     <p align="center">   
-    <img src="Doc/images/IMG_0392_inputs_vis.jpg">
+    <img src="Doc/images/input2_visualize.jpg">
     </p>  
     You can also generate an obj file (which can be opened with Meshlab) that includes extracted texture from the input image.  
 
