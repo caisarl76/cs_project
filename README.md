@@ -27,3 +27,40 @@ Clone the repo:
     a. download [FLAME model](https://flame.is.tue.mpg.de/download.php), choose **FLAME 2020** and unzip it, copy 'generic_model.pkl' into ./data  
     b. download [DECA trained model](https://drive.google.com/file/d/1rp8kdyLPvErw2dTmqtjISRVvQLj6Yzje/view?usp=sharing), and put it in ./data (**no unzip required**)  
     c. (Optional) follow the instructions for the [Albedo model](https://github.com/TimoBolkart/BFM_to_FLAME) to get 'FLAME_albedo_from_BFM.npz', put it into ./data
+
+
+2. Run demos  
+    a. **reconstruction**  
+    ```bash
+    python demos/demo_reconstruct.py -i TestSamples/examples --saveDepth True --saveObj True
+    ```   
+    to visualize the predicted 2D landmanks, 3D landmarks (red means non-visible points), coarse geometry, detailed geometry, and depth.   
+    <p align="center">   
+    <img src="Doc/images/id04657-PPHljWCZ53c-000565_inputs_inputs_vis.jpg">
+    </p>  
+    <p align="center">   
+    <img src="Doc/images/IMG_0392_inputs_vis.jpg">
+    </p>  
+    You can also generate an obj file (which can be opened with Meshlab) that includes extracted texture from the input image.  
+
+    Please run `python demos/demo_reconstruct.py --help` for more details. 
+
+    b. **expression transfer**   
+    ```bash
+    python demos/demo_transfer.py
+    ```   
+    Given an image, you can reconstruct its 3D face, then animate it by tranfering expressions from other images. 
+    Using Meshlab to open the detailed mesh obj file, you can see something like that:
+    <p align="center"> 
+    <img src="Doc/images/soubhik.gif">
+    </p>  
+    (Thank Soubhik for allowing me to use his face ^_^)   
+    
+    Note that, you need to set '--useTex True' to get full texture.   
+
+    c. for the [teaser gif](https://github.com/YadiraF/DECA/results/teaser.gif) (**reposing** and **animation**)
+    ```bash
+    python demos/demo_teaser.py 
+    ``` 
+    
+    More demos and training code coming soon.
