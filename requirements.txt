@@ -2,9 +2,9 @@
 #`pip install -r requirements.txt`
 numpy==1.18.5
 scipy==1.4.1 
-chumpy==0.69
+chumpy
 scikit-image==0.15 
-opencv-python==4.1.1 
+opencv-python==4.1.1.26
 scikit-image==0.15     #skimage
 PyYAML==5.1.1         
 torch==1.6.0   # for compatible with pytorch3d
