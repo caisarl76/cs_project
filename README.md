@@ -52,13 +52,13 @@ Clone the repo:
     Given an image, you can reconstruct its 3D face, then animate it by tranfering expressions from other images. 
     Using Meshlab to open the detailed mesh obj file, you can see something like that:
     <p align="center"> 
-    <img src="Doc/images/soubhik.gif">
+    <img src="Doc/images/teaser.gif">
     </p>  
-    (Thank Soubhik for allowing me to use his face ^_^)   
+   
     
     Note that, you need to set '--useTex True' to get full texture.   
 
-    c. for the [teaser gif]((https://github.com/caisarl76/cs_project/Doc/images/teaser.gif)) (**reposing** and **animation**)
+    c. for the teaser gif
     ```bash
     python demos/demo_teaser.py 
     ``` 
